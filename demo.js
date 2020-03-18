@@ -1,7 +1,7 @@
 var audioCtx = new AudioContext();
 var tone = audioCtx.createOscillator();
 var volume = audioCtx.createGain();
-var frequency = 400;
+var frequency = 101;
 tone.type = 'sine';
 tone.frequency.value = frequency;
 volume.gain.value = 1;
